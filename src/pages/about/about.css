@@ -1,0 +1,14 @@
+.about{
+    height: 100vh;
+    padding: 50px;
+}
+.about_title{
+    font-size:50px ;
+    /* color: orangered; */
+    text-shadow: 4px 4px 5px orangered;
+}
+.about_p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 3;
+}
