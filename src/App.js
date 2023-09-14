@@ -14,7 +14,7 @@ function App() {
   const getAriticles = async (searchterm) => {
     try {
       const response = await axios.get(
-        `https://newsapi.org/v2/everything?q=${searchterm}&sortBy=publishedAt&apiKey=535a69a0088740faa020385828cb6d70`
+        `https://newsapi.org/v2/everything?q=${searchterm}&sortBy=publishedAt&apiKey=535a69a0088740faa020385828cb6d70`,{'mode': 'no-cors'}
       );
       console.log(response);
       setArticles(response.data.articles);
