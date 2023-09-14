@@ -1,20 +1,13 @@
 .NewsItem {
     border: 2px solid lightgray;
-   
     padding: 20px;
-    /* margin-bottom: 10px;
-    margin-left: 80px; */
     margin-left: 10px;
     margin-right: 10px;
-  
   }
-  
   .newsImage {
     display: block;
-    /* width: 800px;
-    height: 400px; */
-    width: 50%;
-   margin: 0 auto;
+    width: 70%;
+    margin: 0 auto;
   }
   /* @media (min-width: 400px){
     .newsImage{
@@ -22,14 +15,10 @@
       height: 400px;
     }
   } */
-  
-  
-  
+
   .newsItem-title{
     text-align: center;
   }
   .newsItem-text {
-    text-align: center;
-    /* justify-content: space-evenly; */
-    
+    text-align: center; 
   }

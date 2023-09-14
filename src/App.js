@@ -14,12 +14,11 @@ function App() {
   const getAriticles = async (searchterm) => {
     try {
       const response = await axios.get(
-        `https://newsapi.org/v2/everything?q=${searchterm}&sortBy=publishedAt&apiKey=535a69a0088740faa020385828cb6d70`,{'mode': 'no-cors'}
+        // `https://newsapi.org/v2/everything?q=${searchterm}&sortBy=publishedAt&apiKey=535a69a0088740faa020385828cb6d70`
+       `https://gnews.io/api/v4/search?q=${searchterm}&lang=en&country=us&max=10&apikey=4e160165584709bc7c2a7ea70810028e`
       );
       console.log(response);
       setArticles(response.data.articles);
-      //   const data = await response.json()
-      //   setArticles(data)
     } catch (e) {
       console.error(e);
     }
@@ -43,4 +42,5 @@ function App() {
 }
 
 export default App;
+
 

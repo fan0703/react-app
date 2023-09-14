@@ -13,7 +13,7 @@ export default function Nav(props) {
           <div className="head">About</div>
         </Link>
         <Link to="/Sign_in">
-          <div className="head">Sign in</div>
+          <div className="head">Sign-in</div>
         </Link>
       </div>
     </div>

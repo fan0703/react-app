@@ -10,7 +10,7 @@ export default function NewsList({ articles }) {
               title={article.title}
               description={article.description}
               url={article.url}
-              urlToImage={article.urlToImage}
+              image={article.image}
             />
           </div>
         );
